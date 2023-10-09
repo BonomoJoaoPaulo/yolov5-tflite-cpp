@@ -56,7 +56,11 @@ int main(int argc, char *argv[])
         capture >> frame;
         // frame = cv::imread("bus.jpg");
         if (frame.empty())
+        {
+            std:: cout << "\nFrame is empty!\n" << std::endl;
             break;
+        }
+        std::cout << "INSIDE FOR 2" << std::endl;
         // start
         auto start = std::chrono::high_resolution_clock::now();
         // Predict on the input image

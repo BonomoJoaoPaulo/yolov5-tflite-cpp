@@ -1,2 +1,14 @@
 build
 .vscode
+
+# Ignore video files
+*.mp4
+*.avi
+
+# Ignore image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Add other file extensions you want to ignore here
